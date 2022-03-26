@@ -12,4 +12,4 @@ weight = input("enter your weight in kg: ")
 
 height_float = float(height)
 weight_float = float(weight)
-print(int(weight_float/(height_float ** 2)))
+print(round(weight_float/(height_float ** 2)))
